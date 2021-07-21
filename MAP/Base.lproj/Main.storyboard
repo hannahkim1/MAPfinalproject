@@ -79,7 +79,7 @@
                                     <fragment content="What would you like to do today?">
                                         <attributes>
                                             <color key="NSColor" red="0.88942497970000001" green="0.57770603899999995" blue="0.74511259789999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="21" name=".SFNS-Regular"/>
+                                            <font key="NSFont" metaFont="system" size="21"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -148,7 +148,7 @@
                                         <fragment content="Learn more!">
                                             <attributes>
                                                 <color key="NSColor" red="0.48549932239999999" green="0.32565316560000002" blue="0.3215648532" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="19" name=".SFNS-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="19"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -163,7 +163,7 @@
                                         <fragment content="Learn more!">
                                             <attributes>
                                                 <color key="NSColor" red="0.48549932239999999" green="0.32565316560000002" blue="0.3215648532" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="19" name=".SFNS-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="19"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -202,13 +202,17 @@
                                         <fragment content="Learn more!">
                                             <attributes>
                                                 <color key="NSColor" red="0.48549932239999999" green="0.32565316560000002" blue="0.3215648532" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="19" name=".SFNS-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="19"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                 </state>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FJ8-Kz-Y56">
+                                <rect key="frame" x="163" y="634" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.97076624629999997" green="0.83461713790000003" blue="0.5607322454" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -305,7 +309,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="🏡">
                                             <attributes>
-                                                <font key="NSFont" size="57" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="57"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -325,7 +329,7 @@
                                         <fragment content="📝">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="55" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="55"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -342,7 +346,7 @@
                                         <fragment content="📌">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="55" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="55"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                             </attributes>
                                         </fragment>
@@ -362,7 +366,7 @@
                                         <fragment content="🗓">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="55" name=".AppleColorEmojiUI"/>
+                                                <font key="NSFont" metaFont="system" size="55"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                             </attributes>
                                         </fragment>
@@ -1017,6 +1021,10 @@
                     <navigationItem key="navigationItem" id="66H-bj-sjn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LVo-GU-50b" sceneMemberID="firstResponder"/>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="9R8-iU-oka">
+                    <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </switch>
             </objects>
             <point key="canvasLocation" x="3715.9420289855075" y="1530.8035714285713"/>
         </scene>
